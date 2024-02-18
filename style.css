@@ -1,0 +1,114 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.carousel-item{
+    height: 90vh !important;
+}
+.carousel-caption{
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+}
+.carousel-caption h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkblue;
+}
+.carousel-item .active{
+    background-color: black;
+}
+.nav-link{
+    color: rgb(31, 53, 126);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.card-img-overlay{
+    position: absolute !important;
+    top: auto !important;
+    right: auto !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5%;
+    color: rgb(24, 40, 53);
+    font-weight: bold;
+}
+.card-out-text small{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5%;
+}
+.card img{
+    background-color: black;
+    opacity: 0.5;
+}
+hr{
+    border-top: 1px dashed black;
+}
+.owner{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 2%;
+    margin-top: -18px;
+}
+.links a{
+    text-decoration: none;
+    color: darkblue;
+}
+.getQuote{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 7%;
+    box-shadow: 2px 5px 20px darkblue;
+    border: none;
+    height: 50px;
+    width: 250px;
+
+}
+.headings{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .carousel-item{
+        height: 60vh !important;
+    } 
+    .card-img-overlay{
+        position: absolute !important;
+        top: auto !important;
+        right: auto !important;
+        overflow-x: scroll;
+    }
+    .card-out-text small{
+        display:block;
+    }
+    .card-text small{
+        display: none;
+    }
+    .owner{
+        background-color: lightblue;
+        display: block;
+        padding: 2%;
+        margin-top: -18px;
+    }
+    .getQuote{
+        background-color: lightblue;
+        color: black;
+        font-weight: bold;
+        border-radius: 7%;
+        box-shadow: 2px 5px 20px darkblue;
+        border: none;
+        height: 25px;
+        width: 150px;
+    
+    }
+}
