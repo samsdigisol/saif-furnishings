@@ -12,12 +12,13 @@ html{
 .carousel-caption{
     font-size: large;
     font-weight: bold;
-    color: darkblue;
+    color: maroon;
+    text-shadow: 2px 3px 15px goldenrod;
 }
 .carousel-caption h3{
     font-size: 2rem;
     font-weight: bold;
-    color: darkblue;
+    color: maroon;
 }
 .carousel-item .active{
     background-color: black;
@@ -64,7 +65,7 @@ hr{
     color: black;
     font-weight: bold;
     border-radius: 7%;
-    box-shadow: 2px 5px 20px darkblue;
+    box-shadow: 2px 3px 15px darkblue;
     border: none;
     height: 50px;
     width: 250px;
